@@ -1,0 +1,252 @@
+<html>
+<head>
+  <style>
+  
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Garamond, serif;
+    }
+    .nav {
+			width: 100vw;
+			height: 40vh;
+			background-color: #ffffff;
+			font-size: x-large;
+			color: white;
+			text-align: center;
+			margin: 10px 5px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			place-items: center;
+		}
+p{
+  text-align: center;
+}
+    section {
+      margin: 140px 40px;
+      display: flex;
+      background: #ffffff;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 90vh;
+    }
+
+    section .layout {
+      position: relative;
+      width: 80%;
+      max-width: 1000px;
+      padding: 0px;
+      background: #ffffff;
+      border: 50px solid #ADCFFF;
+      border-radius: 100px;
+    }
+
+    section .layout h1 {
+      position: relative;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      
+    }
+
+    section .layout p {
+      position: relative;
+      text-align: center;
+      
+      color: #000000;
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+    .btn {
+      text-align: right;
+      padding: 2%;
+    }
+
+    #Name {
+      padding-top: 5px;
+      padding-bottom: 10px;
+      text-align: center;
+      background-color: #e8d4f4;
+      color: #433B4F;
+    }
+
+    button {
+      padding: 1%;
+      border: none;
+      border-radius: 5px;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 15%;
+      padding: 0;
+    }
+     
+    .btn-text-right{
+   text-align: right;
+ }
+ 
+h1 {
+  text-align: center;
+  font-size: 20px;
+
+  word-break: break-all;
+}
+.button-73 {
+  appearance: none;
+  background-color: #ded0f6;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #e8d4f4;
+  box-shadow: #000000 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #f89cca;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: rgb(255, 255, 255);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+  </style>
+</head>
+<title> CATS </title>
+<body style="background-color: white">
+  <div id="Name">
+    <h2 style="font-size: 34px; color: #000000;">LIST OF CAT BREEDS</h2>
+  </div>
+  
+  <br>
+      <div class="nav">
+        <a href="#section1" button class="button-73" role="button"><h1 style="font-size: 20px;">PERSIAN CAT</h1></button>
+          <img src="c:\Users\Prasad\Downloads\github\persian cat.jpg" style="width:160px;height:160px;border-radius: 80px;"></a>
+        <a href="#section2" button class="button-73" role="button"><h1 style="font-size: 20px;">SCOTTISH FOLD<br>CAT</h1></button>
+          <img src="c:\Users\Prasad\Downloads\github\scottish fold cat.jpg" style="width:140px;height:140px;border-radius: 80px;"></a>
+          <a href="#section3" button class="button-73" role="button"><h1>SIBERIAN CAT</h1></button>
+            <img src="c:\Users\Prasad\Downloads\github\images.jpg" style="width:160px;height:160px;border-radius: 80px;"></a>
+      </div>
+
+    <div class="layout">
+        <section>
+       <div class="layout" id="section1">
+        <a href="#section1"><h1 style="color: #000000; background-color: #ffffff;">PERSIAN CAT</h1>
+        <img src= "c:\Users\Prasad\Downloads\github\persian cat.jpg" style="width:300px;height:400px;">
+      <div class="btn-text-right">
+       
+        <button class="button-57" role="button"><span class="text"><a href="">More...</span><span>Click Me</span></button></a>
+  </section>
+  
+  <section>
+    <div class="layout"  id="section2">
+        <a href="#section2"><h1 style="color:#000000; background-color: #ffffff;">SCOTTISH FOLD CAT</h1>
+      <img src="c:\Users\Prasad\Downloads\github\scottish fold cat.jpg" style="width:300px;height:400px;">
+      <div class="btn-text-right">
+        <button class="button-57" role="button"><span class="text">More...</span><span>Click Me</span></button>
+  </section>
+
+  <section>
+    <div class="layout"   id="section3">
+      <h1 style="color:#000000; background-color: #ffffff;" >SIBERIAN CAT</h1>
+     
+      <img src="c:\Users\Prasad\Downloads\github\images.jpg" style="width:500px;height:400px;">
+      <div class="btn-text-right">
+        <button class="button-57" role="button"><span class="text">More...</span><span>Click Me</span></button>
+    </div>
+  </section>
+
+</body>
+</html>
